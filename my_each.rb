@@ -7,6 +7,8 @@ def my_each(arr)
 end
 
 collection = [1, 2, 3, 4]
-puts my_each(collection) do |i|
+a = my_each(collection) do |i|
   puts i
 end
+
+puts a
