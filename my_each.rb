@@ -4,11 +4,6 @@ def my_each(arr)
     yield(arr[i])
     i+=1
   end
+  arr
 end
 
-collection = [1, 2, 3, 4]
-a = my_each(collection) do |i|
-  puts i
-end
-
-puts a
